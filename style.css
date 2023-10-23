@@ -1,0 +1,29 @@
+body {
+    font: 11px/15px georgia, serif;
+    text-align: center;
+    color: #fff;
+    background: #748A9B url(bg2.gif) 0 0 repeat-y;
+    margin: 0px;
+}
+
+body {
+    display: block;
+}
+
+.page-wrapper {
+    background: #849AA9 url(bg1.gif) top left repeat-y;
+    text-align: left;
+    width: 750px;
+    margin: 0px auto;
+    position: relative;
+}
+
+header h1 {
+    background: transparent url(h1.jpg) no-repeat top left;
+    width: 750px;
+    height: 142px;
+    margin: 0px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
