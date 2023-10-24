@@ -35,3 +35,128 @@ h2 {
     text-decoration: underline;
 }
 
+.summary {
+    clear: both;
+    margin: 20px 20px 20px 10px;
+    width: 160px;
+    float: left;
+}
+
+.summary p {
+    font: italic 1.1em/2.2 georgia;
+    text-align: center;
+}
+
+.preamble {
+    clear: right;
+    padding: 0px 10px 0 10px;
+}
+
+.supporting {
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a:link,
+footer a:visited {
+    margin-right: 20px;
+}
+
+.sidebar {
+    margin-left: 600px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sidebar .wrapper {
+    font: 10px verdana, sans-serif;
+
+    padding: 10px;
+    margin-top: 150px;
+    width: 130px;
+}
+
+.sidebar h3.select {
+
+    margin: 10px 0 5px 0;
+    width: 97px;
+    height: 16px;
+
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sidebar h3.archives {
+
+    margin: 25px 0 5px 0;
+    width: 57px;
+    height: 14px;
+
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sidebar h3.resources {
+    margin: 25px 0 5px 0;
+    width: 63px;
+    height: 10px;
+
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    line-height: 1.3em;
+
+    display: block;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+.sidebar li a:link {
+    color: #290be7;
+}
+
+.sidebar li a:visited {
+    color: #335991;
+}
+
+
+.extra1 {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 148px;
+    height: 110px;
+}
+
+.summary {
+    clear: both;
+    margin: 20px 20px 20px 10px;
+    width: 160px;
+    float: left;
+    padding: 15px;
+    /* Added padding */
+    border: 1px solid #000;
+    /* Added border */
+}
+
+.summary p {
+    font: italic 1.1em/2.2 georgia;
+    text-align: center;
+}
