@@ -2,8 +2,10 @@ body {
     font: 11px/15px georgia, serif;
     text-align: center;
     color: #fff;
-    background: #748A9B url(bg2.gif) 0 0 repeat-y;
+    background: #0c609f url(bg2.gif) 0 0 repeat-y;
     margin: 0px;
+    border: 10cm;
+    border: dotted;
 }
 
 body {
@@ -11,11 +13,12 @@ body {
 }
 
 .page-wrapper {
-    background: #849AA9 url(bg1.gif) top left repeat-y;
+    background: #4e7c9b url(bg1.gif) top left repeat-y;
     text-align: left;
-    width: 750px;
+    width: 50%;
     margin: 0px auto;
     position: relative;
+    padding: 15%;
 }
 
 header h1 {
@@ -27,3 +30,8 @@ header h1 {
     white-space: nowrap;
     overflow: hidden;
 }
+
+h2 {
+    text-decoration: underline;
+}
+
