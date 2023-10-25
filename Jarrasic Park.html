@@ -12,6 +12,170 @@
     <meta name="author" content="Dave Shea">
     <meta name="description" content="A demonstration of what can be accomplished visually through CSS-based design.">
     <meta name="robots" content="all">
+    <style>
+        body {
+    font: 11px/15px georgia, serif;
+    text-align: center;
+    color: #fff;
+    background: #0c609f url(bg2.gif) 0 0 repeat-y;
+    margin: 0px;
+    border: 10cm;
+    border: dotted;
+}
+
+body {
+    display: block;
+}
+
+.page-wrapper {
+    background: #4e7c9b url(bg1.gif) top left repeat-y;
+    text-align: left;
+    width: 50%;
+    margin: 0px auto;
+    position: relative;
+    padding: 15%;
+}
+
+header h1 {
+    background: transparent url(h1.jpg) no-repeat top left;
+    width: 750px;
+    height: 142px;
+    margin: 0px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.summary {
+    clear: both;
+    margin: 20px 20px 20px 10px;
+    width: 160px;
+    float: left;
+}
+
+.summary p {
+    font: italic 1.1em/2.2 georgia;
+    text-align: center;
+}
+
+.preamble {
+    clear: right;
+    padding: 0px 10px 0 10px;
+}
+
+.supporting {
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a:link,
+footer a:visited {
+    margin-right: 20px;
+}
+
+.sidebar {
+    margin-left: 600px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sidebar .wrapper {
+    font: 10px verdana, sans-serif;
+
+    padding: 10px;
+    margin-top: 150px;
+    width: 130px;
+}
+
+.sidebar h3.select {
+
+    margin: 10px 0 5px 0;
+    width: 97px;
+    height: 16px;
+
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sidebar h3.archives {
+
+    margin: 25px 0 5px 0;
+    width: 57px;
+    height: 14px;
+
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.sidebar h3.resources {
+    margin: 25px 0 5px 0;
+    width: 63px;
+    height: 10px;
+
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    line-height: 1.3em;
+
+    display: block;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+.sidebar li a:link {
+    color: #307cae;
+}
+
+.sidebar li a:visited {
+    color: #335991;
+}
+
+
+.extra1 {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 148px;
+    height: 110px;
+}
+
+.summary {
+    clear: both;
+    margin: 20px 20px 20px 10px;
+    width: 160px;
+    float: left;
+    padding: 15px;
+    /* Added padding */
+    border: 1px solid #000;
+    /* Added border */
+}
+
+.summary p {
+    font: italic 1.1em/2.2 georgia;
+    text-align: center;
+}
+    </style>
 
 
     <!--[if lt IE 9]>
@@ -50,6 +214,10 @@
 -->
 
 <body id="css-zen-garden">
+
+    <Figure>
+        <img src="360_F_353702539_cRyt6EaLTkB94yozBxqORYO1GlLbvRGO.jpg" alt="">
+    </Figure>
     <div class="page-wrapper">
 
         <section class="intro" id="zen-intro">
