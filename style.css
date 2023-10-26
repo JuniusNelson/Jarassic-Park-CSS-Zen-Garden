@@ -8,13 +8,26 @@ body {
   text-align: center;
   font: 16px Georgia, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #616161;
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
   animation: backgroundAnimation 20s infinite alternate;
   padding: 2%;
 }
+
+.body::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  background-color: aqua;
+  background-size: cover;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
 
 a:link, a:visited {
   font-weight: bold;
@@ -39,7 +52,7 @@ h3 {
   display: inline-block;
   position: fixed;
   z-index: -1;
-  background-image: url('background-image.jpg');
+  background-image: url('HD-wallpaper-stormtrooper-amoled-animated-black-colartive-colorful-creative-creative-latest-mandalorian-starwars.jpg');
   background-size: cover;
   left: 0;
   top: 0;
@@ -90,7 +103,7 @@ header {
   width: 160px;
   float: left;
   padding: 10px;
-  background-color: #fff;
+  background-color: #000000;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -124,10 +137,11 @@ footer a:hover, footer a:focus, footer a:active {
   margin-left: 10%;
   position: absolute;
   top: 0;
-  right: 0;
+  right: 5%;
   background-color: #000000;
   padding: 20px;
   border-radius: 10px;
+  border: 10px solid white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
