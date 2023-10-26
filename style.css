@@ -52,7 +52,7 @@ h3 {
   display: inline-block;
   position: fixed;
   z-index: -1;
-  background-image: url('HD-wallpaper-stormtrooper-amoled-animated-black-colartive-colorful-creative-creative-latest-mandalorian-starwars.jpg');
+  background-image: url('vector-black-triangular-abstract-texture-low-light-background.jpg');
   background-size: cover;
   left: 0;
   top: 0;
@@ -223,3 +223,7 @@ footer a:hover, footer a:focus, footer a:active {
     transform: translateX(5px);
   }
 }
+.summary {
+  color: white;
+}
+
